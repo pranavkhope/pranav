@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schorlship Registration Form</title>
+    </head>
+    <body>
+        <h1>Scholship Registration Form</h1>
+        <div bgcolor="lavinder">
+            
+            <form>
+                <legend>
+                    <h3 align="center">Scholarship registration form:</h3>
+                </legend>
+                <lable for ="name">NAME:</lable>
+                <input type="text" placeholder="First_name" required/>
+                <input type="text" placeholder="Middel_name" required/>
+                <input type="text" placeholder="Last_name" required/><br>
+                
+                <br>
+
+                <label for="email">Enter Email:</label>
+                <input type="email" required><br><br>
+
+                <label for="password">Enter password:</label>
+                <input type="password" required><br><br>
+
+                <label for="Confirm password">Enter confirm password:</label>
+                <input type="password" required><br><br>
+
+                <label for="dob">Enter your date of birth:</label>
+                <input type="date" required><br><br>
+
+                <label for="Phone">Enter Ph.No.:</label>
+                <input type="tel" required><br><br>
+
+                <label> Select your gender:</label>
+                <div class="gender-group">
+                    <input type="radio" value="male" required/>
+                    <label for="male">Male</label>
+                    <input type="radio" value="female" required/>
+                    <label for="female">Female</label>
+                    <input type="radio" value="Other" required/>
+                    <label for="Other">Others</label>
+                </div><br><br>
+
+                <label for="address">Enter your Address:</label>
+                <input type="textarea" required></textarea><br><br>
+
+                <label> Select your State:</label>
+                <div class="state-group">
+                    <select>
+                        <option>------------------Select State-------------------</option>
+                        <option>Maharashtra</option>
+                         <option>Madhya Pradesh</option>
+                         <option>Gujrat</option>
+                         <option>Tamil Nadu</option>
+                         <option> Bihar</option>
+                         <option>Delhi</option>
+                    </select>
+                </div><br><br>
+
+                <legend>
+                    <h3> Educatinal Info:</h3>
+                </legend>
+                <label>Select your Branch:</label>
+                <div class="branch-group">
+                    <input type="checkbox"/>EM_tech<br>
+                    <input type="checkbox"/>CSE<br>
+                    <input type="checkbox"/>IT<br>
+                    <input type="checkbox"/>ETC<br>
+                    <input type="checkbox"/>Civil<br>
+                    <input type="checkbox"/>Mech.<br>
+                </div>
+                <br>
+                <label for="ssc">SSC % Marks</label>
+                <input type="%marks" required /><br>
+                <label for="hsc">HSC % Marks</label>
+                <input type="%marks" required /><br>
+                <label for="B.tech">B.tech % Marks</label>
+                <input type="%marks" required /><br><br>
+
+                <legend><h3>Upload Documnets:</h3></legend>
+                <label for="photo">Upload photo:</label>
+                <input type="file" required /><br>
+                <label for="photo">Income certificate:</label>
+                <input type="file" required /><br>
+                <label for="photo">Caste certificate:</label>
+                <input type="file" required /><br>
+
+                <input type="submit" value="Registration"/>
+            </form>
+        </fieldset>
+        </div>
+    </body>
+</html>
